@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{b5e3c580-fa58-42f6-8bb0-a667b656bdd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{8b93ead6-5da4-437c-9c54-686b10a9e18d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="P0">
+      <UniqueIdentifier>{7dfaf8a4-50d9-44c8-a81c-7ded9165382d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steel">
+      <UniqueIdentifier>{62cc6213-836a-4eba-97b0-6d23671a75c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InnerOutline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="outputfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Block\BlockData.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block\BlockTest.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Block\DrawObj.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ComponentP0.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Data.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\StructAlgorithm.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="P0\BlockAndGJ.h">
+      <Filter>P0</Filter>
+    </ClInclude>
+    <ClInclude Include="P0\ForSteel.h">
+      <Filter>P0</Filter>
+    </ClInclude>
+    <ClInclude Include="P0\GouZao.h">
+      <Filter>P0</Filter>
+    </ClInclude>
+    <ClInclude Include="P0\RefLineName.h">
+      <Filter>P0</Filter>
+    </ClInclude>
+    <ClInclude Include="Steel\SteelGroup.h">
+      <Filter>Steel</Filter>
+    </ClInclude>
+    <ClInclude Include="Steel\SteelQun.h">
+      <Filter>Steel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InnerOutline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Block\BlockData.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block\BlockTest.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block\DrawObj.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ComponentP0.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Data.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\StructAlgorithm.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="P0\BlockAndGJ.cpp">
+      <Filter>P0</Filter>
+    </ClCompile>
+    <ClCompile Include="P0\ForSteel.cpp">
+      <Filter>P0</Filter>
+    </ClCompile>
+    <ClCompile Include="P0\GouZao.cpp">
+      <Filter>P0</Filter>
+    </ClCompile>
+    <ClCompile Include="P0\RefLineName.cpp">
+      <Filter>P0</Filter>
+    </ClCompile>
+    <ClCompile Include="Steel\SteelGroup.cpp">
+      <Filter>Steel</Filter>
+    </ClCompile>
+    <ClCompile Include="Steel\SteelQun.cpp">
+      <Filter>Steel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="InnerOutline.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
